@@ -73,7 +73,7 @@ c2 = Cell(6)
 с3 = Cell(2)
 с4 = Cell(1)
 c = c1 + c2 - с3 + с3 * с4 + c2 / с3
-cc = c2 / с3
+cc = c - c2 / с3
 print(c)
 print(cc)
 print(c.make_order(3))
